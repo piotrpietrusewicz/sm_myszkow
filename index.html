@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SM Myszków</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src='js/scripts.js'></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 left">
+          <nav id="sidebar">
+              <!-- Sidebar Header -->
+            <div class="sidebar-header">
+                <h3>SM Myszków</h3>
+            </div>
+
+            <!-- Sidebar Links -->
+            <ul class="list-unstyled components">
+              <li><a href="/">Aktualności</a></li>
+              <li><a href="#">Dla Kandydatów</a></li>
+
+              <li><!-- Link with dropdown items -->
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">O szkole <i class="arrow down"></i></a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                  <li><a href="#">Galeria</a></li>
+                  <li><a href="#">Pracownicy</a></li>
+                  <li><a href="#">Rada rodziców</a></li>
+                  <li><a href="#">Sukcesy</a></li>
+                  <li><a href="#">Dokumenty</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="col-lg-10 left">
+          <div class='content'>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='footer'>
+    </div>
+  </body>
+</html>
