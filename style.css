@@ -1,11 +1,8 @@
-body {
-  font-family: 'Amita' !important;
-}
-
 img.logo {
   -webkit-transform: scale(0.6);
 }
 .content {
+  font-family: 'Amita' !important;
   width: 100%;
   height: 100vh;
   background: url('images/providence.jpg') no-repeat center center;
@@ -28,11 +25,6 @@ img.logo {
   font-family: 'Amita', cursive;
   font-style: italic;
   font-variant: normal;
-}
-.footer {
-  width: 100%;
-  height: 20vh;
-  background-color: gray;
 }
 
 .nav-pills .nav-link {
@@ -91,13 +83,17 @@ img.logo {
 }
 
 #sidebar ul li a:hover {
-  color: darkcyan;
+  color: black;
   background: #fff;
 }
 
 #sidebar ul li.active > a {
   color: #fff;
   background: #6d7fcc;
+}
+
+p, a, h2 {
+  font-family: monospace !important;
 }
 
 p {
@@ -114,7 +110,6 @@ a {
 }
 
 a:hover {
-  color: blue !important;
   text-decoration: none !important;
   transition: all 0.3s;
 }
