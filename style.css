@@ -97,13 +97,13 @@ img.logo {
   background: #6d7fcc;
 }
 
-p, a, h2 {
+p, a, h1, h2, h3, h4, h5, h6 {
   font-family: monospace !important;
 }
 
 p {
   font-weight: 300;
-  line-height: 1.70m;
+  line-height: 1.7;
   color: #999;
 }
 
@@ -145,7 +145,7 @@ a[aria-expanded="false"]::before {
   padding-left: 0px !important;
 }
 #contact {
-  height: 50vh;
+  min-height: 450px;
   background: linear-gradient(-90deg, #9da1af, #2386D5);
   color: white;
 }
@@ -153,15 +153,21 @@ a[aria-expanded="false"]::before {
   text-align: center;
 }
 
+.italic {
+  font-style: italic;
+}
 #contact .dane-kontaktowe {
-  margin-top: 70px;
+  margin-top: 100px;
   float: right;
   margin-right: 20px;
 }
 
+#contact a {
+  color: white !important;
+}
 #contact .mapa {
-  margin-top: 20px;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 ul ul a {
