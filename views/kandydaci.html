@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SM Myszków</title>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='../style.css'>
+    <link rel='stylesheet' href='../kandydaci.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src='../js/scripts.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Amita" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 left">
+          <nav id="sidebar">
+              <!-- Sidebar Header -->
+            <div class="sidebar-header">
+              <h2><a href='http://www.smmyszkow.edu.pl'>SM Myszków</a></h2>
+            </div>
+
+            <!-- Sidebar Links -->
+            <ul class="components">
+              <li><a href="aktualnosci.html">Aktualności</a></li>
+              <li><a href="kandydaci.html">Dla Kandydatów</a></li>
+
+              <li><!-- Link with dropdown items -->
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">O szkole <i class="arrow down"></i></a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                  <li><a href="galeria.html">Galeria</a></li>
+                  <li><a href="pracownicy.html">Pracownicy</a></li>
+                  <li><a href="rada.html">Rada rodziców</a></li>
+                  <li><a href="sukcesy.html">Sukcesy</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#contact">Kontakt</a>
+              </li>
+            </ul>
+            <img src='../images/logom.jpg' class='logo mx-auto d-block'>
+          </nav>
+        </div>
+
+        <div class="col-lg-10 left">
+          <div class='kandydaci-content'>
+            <div class='title'>
+              <h1>Dla kandydatów</h1>
+            </div>
+            <table class="table text-center">
+              <tbody>
+                <tr>
+                  <th scope="row">Informacje o rekrutacji</th>
+                  <td><a class="btn btn-info" href="#" role="button">Pobierz plik</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">Wniosek do pobrania</th>
+                  <td><a class="btn btn-info" href="#" role="button">Pobierz plik</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class='col-lg-12'>
+          <div id='contact'>
+            <div class='row'>
+              <div class='col-lg-6'>
+                <div class='dane-kontaktowe'>
+                  <h2 class='italic'>Szkoła Muzyczna I stopnia w Myszkowie</h2>
+                  <h4>ul. Pińczycka 2</h4>
+                  <h4>42-300 Myszków</h4>
+                  <h4>668-088-111</h4>
+                  <h4><a href="mailto:szkola@smmyszkow.edu.pl?subject=Zapytanie">szkola@smmyszkow.edu.pl</a></h4>
+                  <h4>www.smmyszkow.edu.pl</h4>
+                </div>
+              </div>
+              <div class='col-lg-6'>
+                <div class='mapa'>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2535.191105943369!2d19.28979721573493!3d50.549215979489155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47172f8e6d7073d9%3A0xa1085c54fbc28046!2sPi%C5%84czycka+2%2C+42-300+Myszk%C3%B3w!5e0!3m2!1spl!2spl!4v1521896216927" width="600" height="400" frameborder="0" style="border:0" allowfullscreen>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

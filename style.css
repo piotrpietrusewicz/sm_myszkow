@@ -146,7 +146,7 @@ a[aria-expanded="false"]::before {
 }
 #contact {
   min-height: 450px;
-  background: linear-gradient(-90deg, #9da1af, #2386D5);
+  background: #8c8b8b;
   color: white;
 }
 #contact h1,h4 {

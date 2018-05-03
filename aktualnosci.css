@@ -1,0 +1,11 @@
+.aktualnosci-content {
+  background: linear-gradient(180deg, #2cb8fb, #6583b1);
+  font-family: 'Amita';
+  width: 100%;
+  height: 100vh;
+}
+
+.aktualnosci-content .title {
+  text-align: center;
+  padding-top: 100px;
+}

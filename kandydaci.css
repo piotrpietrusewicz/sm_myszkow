@@ -1,0 +1,21 @@
+.kandydaci-content {
+  background: linear-gradient(180deg, #2cb8fb, #6583b1);
+  font-family: 'Amita' !important;
+  width: 100%;
+  height: 100vh;
+}
+
+.kandydaci-content .title {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.table {
+  width: 50% !important;
+  margin: 50px auto;
+}
+
+th{
+  font-size: 1.2em;
+  font-family: monospace;
+}
