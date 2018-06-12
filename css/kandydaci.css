@@ -1,6 +1,7 @@
 .kandydaci-content {
-  background: linear-gradient(180deg, #2cb8fb, #6583b1);
-  font-family: 'Amita' !important;
+  color: #fff;
+  background: #6d7fcc;
+  font-family: 'Poppins', monospace;
   width: 100%;
   height: 100vh;
 }
@@ -16,6 +17,5 @@
 }
 
 th, td{
-  font-size: 1.2em;
-  font-family: monospace;
+  font-size: 1em;
 }
