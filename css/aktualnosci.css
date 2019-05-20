@@ -10,3 +10,14 @@
   text-align: center;
   padding-top: 100px;
 }
+
+.aktualnosci-content .list {
+  text-align: center;
+  margin: 50px;
+}
+
+
+.aktualnosci-content ul li {
+  font-size: 1.3em;
+  margin: 20px auto;
+}
